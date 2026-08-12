@@ -1,0 +1,24 @@
+cat > .gitignore << 'EOF'
+# Modele i checkpointy (sa na Hugging Face)
+model_b0/
+model_nowy_b4/
+*.pt
+*.pth
+
+# Dane (zdjecia)
+malignant/
+*.jpg
+*.jpeg
+*.png
+
+# Logi
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Srodowisko
+.env
+EOF
